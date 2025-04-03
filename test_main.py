@@ -15,7 +15,14 @@ def test_get_offers():
             'photos': ['url1', 'url2'],
             'price': 100,
             'rooms': 3
-        }
+        },
+        {
+            'id': 2,
+            'location': 'Томск, пер. Лесной 11',
+            'photos': ['url3'],
+            'price': 2000,
+            'rooms': 3,
+        },
     ]
 
 
@@ -29,5 +36,5 @@ def test_get_offer():
         'photos': ['url1', 'url2'],
         'price': 100,
         'rooms': 3,
-        'total_area': 100
+        'total_area': 200
     }
